@@ -1047,6 +1047,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+        justify-content: center;
         gap: 24px;
     }
 
@@ -1068,6 +1069,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         flex-direction: row;
         column-gap: 24px;
         row-gap: 64px;
+        justify-content: center;
     }
 
     .team-card {
@@ -1079,6 +1081,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         flex-wrap: wrap;
         row-gap: 72px;
         column-gap: 24px;
+        justify-content: center;
     }
 
     .portfolio-card {
@@ -1436,10 +1439,11 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 48px;
+        justify-content: center;
     }
 
     .portfolio-card {
-        width: calc((100% - 48px) / 3);
+        width: 360px;
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
